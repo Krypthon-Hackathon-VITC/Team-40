@@ -11,8 +11,6 @@ Members:
 
 Domain - BlockChain 
 
-Canva Link - https://www.canva.com/design/DAFMOBucC70/yro41tsrrlPQlFPkefUKOQ/edit?utm_content=DAFMOBucC70&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
 # Trux - The Decentralised Application
 
 Trux is a Decentralized E2E Logistics Application that stores the whereabouts of product at every freight hub on the Blockchain. At consumer end, customers can simply scan the QR CODE of products and get complete information about the provenance of that product hence empowering consumers to only purchase authentic and quality products.
