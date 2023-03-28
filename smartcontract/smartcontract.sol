@@ -40,4 +40,30 @@ contract SupplyChain {
         return true;
     }
     
+    function addState(uint _productId, string memory info) public returns (string memory) {
+        require(_productId<=items);
+        
+        State memory newState = State({person: msg.sender, description: info});
+        
+        allProducts[_productId].positions[ allProducts[_productId].totalStates ]=newState;
+        
+        allProducts[_productId].totalStates = allProducts[_productId].totalStates +1;
+        return info;
+    }
+    
+    function searchProduct(uint _productId) public returns (string memory) {
+
+        require(_productId<=items);
+        string memory output="Product Name: ";
+        output=concat(output, allProducts[_productId].productName);
+        output=concat(output, "<br>Manufacture Date: ");
+        output=concat(output, allProducts[_productId].date);
+        
+        for (uint256 j=0; j<allProducts[_productId].totalStates; j++){
+            output=concat(output, allProducts[_productId].positions[j].description);
+        }
+        return output;
+        
+    }
+    
 }
