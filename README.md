@@ -1,8 +1,17 @@
 # Team-40
 
-BlockChain 
+Team - 4 Stars
 
-Trux - The Decentralised Application
+Members:
+
+1) Gaurav Sharan
+2) Utkarsh Aryan
+3) Jalavadi Shree Nikhila
+4) Nishu Singh
+
+Domain - BlockChain 
+
+# Trux - The Decentralised Application
 
 Trux is a Decentralized E2E Logistics Application that stores the whereabouts of product at every freight hub on the Blockchain. At consumer end, customers can simply scan the QR CODE of products and get complete information about the provenance of that product hence empowering consumers to only purchase authentic and quality products.
 
@@ -19,7 +28,8 @@ Now we can run this using Mamp or Xampserver in localhost.
 
 We can see the transactions in Ganache as we add product in the website, showing that the backend is working as expected. 
 
-About Repo - 
+# About
+
 This repo contains the necessary js libraries, webpages and smart contract. 
 
 These steps will help you test this decentralized application on your own computer.
