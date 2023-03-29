@@ -102,7 +102,7 @@
     <?php
     }else{
       include 'redirection.php';
-      redirect('addproduct.php');
+      redirect('checkproduct.php');
     }
     ?>
     

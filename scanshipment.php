@@ -9,10 +9,10 @@ $color="navbar-dark cyan darken-3";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="SHORTCUT ICON" href="images/fibble.png" type="image/x-icon" />
-    <link rel="ICON" href="images/fibble.png" type="image/ico" />
+    <link rel="SHORTCUT ICON" href="images/fibble.jpg" type="image/x-icon" />
+    <link rel="ICON" href="images/fibble.jpg" type="image/ico" />
 
-    <title>Fibble - Scan Shipments</title>
+    <title>Trux - Scan Shipments</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -219,4 +219,3 @@ $color="navbar-dark cyan darken-3";
     </script>
   </body>
 </html>
-<!-- Developed by Anubhav Dutta : https://www.linkedin.com/in/iamanubhavdutta/ -->

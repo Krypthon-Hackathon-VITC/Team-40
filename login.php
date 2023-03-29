@@ -40,7 +40,7 @@ session_start(); ?>
             $_SESSION['role']=$row['role'];
             $_SESSION['username']=$row['username'];
             include 'redirection.php';
-            redirect('addproduct.php');
+            redirect('checkproduct.php');
         }else{
             $submission=10;
         }

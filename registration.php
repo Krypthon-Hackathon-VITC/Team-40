@@ -56,7 +56,7 @@
             $_SESSION['role']=$role;
             $_SESSION['username']=$username;
             include 'redirection.php';
-            redirect('addproduct.php');
+            redirect('checkproduct.php');
         }
     }else{
         include 'redirection.php';

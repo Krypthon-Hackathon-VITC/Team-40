@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light white" style="position: fixed; width: 100%;z-index: 20;">
 <a class="navbar-brand" href="checkproduct.php">
-<img src="images/fibble.png" style="width: 30px;"> &nbsp
+<img src="images/fibble.jpg" style="width: 30px;"> &nbsp
 </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -13,7 +13,9 @@
     <?php
     if ( isset( $_SESSION['role'] ) ){
     ?>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="checkproduct.php">Check Products</a>
+      </li>
     <?php
     if ( $_SESSION['role']==0 ){
     ?>
@@ -23,7 +25,9 @@
     <?php
         }if ( $_SESSION['role']==1 || $_SESSION['role']==0 ){
     ?>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="scanshipment.php">Scan Shipment</a>
+      </li>
     <?php
     }
     }
