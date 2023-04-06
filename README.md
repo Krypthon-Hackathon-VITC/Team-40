@@ -4,6 +4,8 @@ Members:
 2) Utkarsh Aryan
 3) Jalavadi Shree Nikhila
 4) Nishu Singh
+
+
 Domain - BlockChain
 # Trux - The Decentralised Application
 Trux is a Decentralized E2E Logistics Application that stores the whereabouts
